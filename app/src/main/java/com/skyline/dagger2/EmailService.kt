@@ -4,7 +4,7 @@ import android.util.Log
 import javax.inject.Inject
 
 class EmailService @Inject constructor() {
-    fun saveUser(email: String, password: String) {
+    fun sentMail(email: String, form: String, topic: String) {
         Log.d("TAG", "User Saved")
     }
 }
